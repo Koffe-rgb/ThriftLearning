@@ -42,7 +42,7 @@ namespace Client
             }
             catch (ThriftSpecification.Shared.InvalidOperationException e)
             {
-                Console.WriteLine($"Error: \"{e.Message}\" while trying perform {e.Operation} operation");
+                Console.WriteLine($"Error: \"{e.Comment}\" while trying perform {e.Operation} operation");
             }
             catch (Exception e)
             {
