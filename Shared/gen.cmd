@@ -1,0 +1,1 @@
+thrift.exe -out .\ -r -gen netstd spec.thrift
